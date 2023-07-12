@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100&family=Oswald:wght@300;500&display=swap');
+
+*{
+    /* font-family: 'Lexend Peta', sans-serif; */
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    background-color: #000000;
+}
+
+.all{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url("../IMG/FondoTodo.png");
+height: 750px;
+width: cover;
+
+}
+
+h1{
+    font-family: fantasy;
+}
+.inputPoke{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(28, 59, 195);
+    color: aliceblue;
+}
+
+.titulo{
+    padding-bottom: 2rem;
+    } 
+
+.ball{
+    margin-top: 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+.pokemonContainer{
+    background-image: url("../IMG/fondo.png") ;
+   display: flex;
+   position: center;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   border: 10px solid black;
+   width: 400px;
+   /* margin-top: 8rem; */
+}
+
+img{
+    width: 300px;
+    height: cover;
+}
+
+.name{
+    font-size: 30px;
+    width: cover;
+}
+
+.number{
+    font-size: 30px;
+    width: cover;
+}
+
+.pokemon-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+
+}
