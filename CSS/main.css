@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100&family=Oswald:wght@300;500&display=swap');
 
 *{
-    /* font-family: 'Lexend Peta', sans-serif; */
     font-family: 'Oswald', sans-serif;
 }
 
@@ -10,7 +9,7 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 2rem;
-    background-color: #000000;
+    background-color: #faf8f8;
 }
 
 .all{
@@ -27,6 +26,7 @@ width: cover;
 h1{
     font-family: fantasy;
 }
+
 .inputPoke{
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
@@ -48,15 +48,14 @@ h1{
 }
 
 .pokemonContainer{
-    background-image: url("../IMG/fondo.png") ;
+   background-image: url("../IMG/fondo.png") ;
    display: flex;
    position: center;
    justify-content: center;
    text-align: center;
    align-items: center;
-    border: 10px solid rgb(30, 29, 29); 
+   border: 10px solid rgb(30, 29, 29); 
    width: 400px;
-   /* margin-top: 8rem; */
 }
 
 .titulopo{
