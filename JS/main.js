@@ -14,13 +14,15 @@ function takePokemon(numero){
           <p>Weight: ${pokemon.weight} Lbs |
           Height: ${pokemon.height}"<br>
           HP: ${pokemon.stats[0].base_stat} | 
-          Type: ${pokemon.types.map(el=>el.type.name)}
+          Type: ${pokemon.types.map(el=>el.type.name)} | <br>
+          Abilities: ${pokemon.abilities.map(el=>el.ability.name)}
           </p>
         </div>
        `;
        console.log(pokemon)
     });
 }
+
 
 function takePokemons(number){
     for( let i=1; i<=number; i++){
@@ -37,3 +39,9 @@ formPoke.addEventListener("submit", (event) =>{
     takePokemon(inputPoke.value)
     
 });
+
+const btnSurprice = document.querySelector("#random");
+btnSurprice.addEventListener("click",(event) => {
+    event.preventDefault();
+    alert("funciona")
+  });
