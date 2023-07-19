@@ -40,8 +40,15 @@ formPoke.addEventListener("submit", (event) =>{
     
 });
 
+//boton seleccion random
 const btnSurprice = document.querySelector("#random");
 btnSurprice.addEventListener("click",(event) => {
     event.preventDefault();
-    alert("funciona")
-  });
+    let max = 1010;
+    let min = 1;
+    let random = Math.floor((Math.random() * (max - min + 1)) + min);
+    console.log(random);
+    takePokemon(random)
+}
+   
+  )
