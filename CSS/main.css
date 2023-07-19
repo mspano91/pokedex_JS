@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100&family=Oswald:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=VT323&display=swap');
 
 *{
     font-family: 'Oswald', sans-serif;
@@ -30,7 +31,7 @@ h1{
 .inputPoke{
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
-    width: 200px;
+    width: 250px;
     text-align: center;
     border-radius: 8px;
     background-color: rgb(28, 59, 195);
@@ -56,7 +57,7 @@ h1{
    text-align: center;
    align-items: center;
    border: 10px solid rgb(30, 29, 29); 
-   width: 400px;
+   width: 500px;
 }
 
 .titulopo{
@@ -71,10 +72,9 @@ h1{
 
 .name{
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     width: cover;
-    padding-top: 1rem;
-    
+    padding-top: .5rem;
 }
 
 .pokemon-block{
@@ -85,7 +85,7 @@ h1{
 }
 
 .divForm h1{
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
     text-align: center;
 }
 
@@ -96,3 +96,46 @@ h1{
     display:flex;
     justify-content: center;
 }
+
+
+.skills{
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(149, 76, 157);
+    color: aliceblue;
+    margin: 5px;
+}
+
+.pokemon-skills{
+    width: cover;
+    display:grid;
+}
+
+.btnASIDE{
+    position: absolute;
+    margin-right: 30rem;
+    padding-top: 6rem;
+}
+
+.btnType{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    font-size: 15px;
+
+}
+
+.btnCAT{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1px;
+    width: 70px;
+    border: 1px solid rgb(23, 23, 23);
+    text-align: center;
+    border-radius: 8px;
+    background-color:  rgb(28, 59, 195);
+    color: rgb(255, 255, 255);
+}
+
