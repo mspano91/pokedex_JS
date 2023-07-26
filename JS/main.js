@@ -13,8 +13,9 @@ function takePokemon(numero){
 
                  <h1 class="name">#${pokemon.id.toString().padStart(4, 0)} - ${pokemon.name.toUpperCase()}</h1>
                  <img src="${pokemon.sprites.front_default}"/>
+                 </div>
 
-            <div class="pokemon-skills">
+            <div class="pokemon-skills pokemon-block">
                     <p class="skills"> Weight: ${pokemon.weight}Lbs </p>
                     <p class="skills"> Height: ${pokemon.height}"
                     <p class="skills"> HP: ${pokemon.stats[0].base_stat}</p>
